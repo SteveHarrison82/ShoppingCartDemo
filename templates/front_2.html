@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>/rama/</title>
+</head>
+
+
+<body>
+
+<h1>/RamasAscii</h1>
+
+<form method='post'>
+    <label>
+        <div>title</div>
+        <input type="text" name="title" value="{{title}}">
+    </label>
+
+    <label>
+        <div>art</div>
+        <textarea name="art" >{{art}}</textarea>
+
+    </label>
+
+    <div class="error">{{error}}</div>
+    <input type="submit">
+
+</form>
+
+<hr>
+
+{% for storedart in arts %}
+<div class="art">
+    <div class="art-title">{{storedart.title}}</div>
+    <pre class="art-body">{{storedart.art}}</pre>
+</div>
+{% endfor %}
+
+</body>
+
+</html>

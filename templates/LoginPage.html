@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<form method="post">
+    <label>Registration Form</label>
+
+    <div class="error">{{error1}}</div>
+
+    <br>
+
+    <label>UserName</label>
+    <input type="text" name="userid" value="{{userid}}">
+    <br>
+    <div class="error">{{error2}}</div>
+    <label>Password</label>
+    <input type="password" name="pwd">
+    <br>
+    <label>Repeat Password</label>
+    <input type="password" name="repeatpwd" >
+    <br>
+    <input type="submit" name="registerbutton" id="1">
+
+    <br>
+    <br>
+    <label style="Red">AlreadyRegisterd?, then Login</label>
+
+    <label>Login Form</label>
+    <br>
+
+
+    <div class="error">{{errorlogin}}</div>
+    <label>UserName</label>
+    <input type="text" name="userid-login">
+    <br>
+    <label>Password</label>
+    <input type="password" name="pwd-login">
+    <br>
+    <input type="submit" name="loginbutton">
+
+</form>
+
+</body>
+</html>

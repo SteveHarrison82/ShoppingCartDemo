@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rama's Stupid</title>
+</head>
+<body>
+<hr>
+
+{% for storedblog in myblogcontents %}
+<div class="myblog">
+    <div class="blog-subject">{{storedblog.subject}}</div>
+    <pre class="blog-content">{{storedblog.content}}</pre>
+    <hr>
+</div>
+{% endfor %}
+
+</body>
+</html>

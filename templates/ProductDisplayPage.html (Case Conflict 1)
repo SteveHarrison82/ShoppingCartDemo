@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ProductsinMyLittleShop</title>
+</head>
+<body>
+{% for each_product in productdisplaypage %}
+    <div class="myproductlist">
+    <div class="productname">{{each_product.Product_Name}}</div>
+    <pre class="productprice">{{each_product.Price}}</pre>
+    <pre class="productdesc">{{each_product.desc}}</pre>
+    <input type="checkbox" value="{{each_product.Sku_Number}}">
+    <hr>
+</div>
+{% endfor %}
+</body>
+</html>

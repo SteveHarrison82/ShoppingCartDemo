@@ -1,0 +1,21 @@
+application: myfirstapp
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /images
+  static_dir: myimgs
+
+- url: /.*
+  script: main_5.app
+
+libraries:
+- name: jinja2
+  version: latest
+- name: webapp2
+  version: latest
+
+
