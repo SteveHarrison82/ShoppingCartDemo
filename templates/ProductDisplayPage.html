@@ -4,20 +4,20 @@
     <title>ProductsinMyLittleShop</title>
 </head>
 <body>
-<form method="post" action="/addcart">
+
 
 {% for each_product in productdisplaypage %}
+<form method="post">
     <div class="myproductlist">
     <div class="productname">{{each_product.Product_Name}}</div>
     <div class="productprice">{{each_product.Price}}</div>
     <div class="productdesc">{{each_product.Product_Attribute}}</div>
     <div class="Sku_Number">{{each_product.Sku_Number}}</div>
     <img src= "/images/butter/rama-new.jpeg">
-    <button type="submit" name="BuyNow" value={{each_product.Sku_Number}}> BuyNow</button>
-
-    <hr>
-</div>
-{% endfor %}
+    <button type="submit" name="buynow" value={{each_product.Sku_Number}}>buynow</button>
+     </div>
 </form>
+{% endfor %}
+
 </body>
 </html>

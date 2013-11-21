@@ -3,11 +3,11 @@ import random
 import os
 import sys
 sys.path.append("/usr/lib/python2.7/dist-packages")
-sys.path.append("/home/ramr/Desktop/google_appengine/lib/webapp2")
+sys.path.append("/home/ramakrishnan/google_appengine/lib/webapp2-2.5.2")
 import jinja2
 import webapp2
 from google.appengine.ext import db
-
+import logging
 '''template_dir variable is current dirname joined with folder name templates'''
 template_dir = os.path.join(os.path.dirname(__file__),'templates')
 '''
@@ -50,29 +50,30 @@ class AvailableProductsCatalog(db.Model):
     Product_Attribute=db.StringProperty(required=True)
 
 
-def init_db_with_items():
-    if len(AvailableProductsCatalog)==0
-        Addproduct1=AvailableProductsCatalog(Product_Name='RamaDE',
-        Sku_Number='rama_1',
-        Price='25e-dollar',
-        Product_image_url='/images/butter/rama-de.jpeg',
-        Product_Attribute='25g butter')
-        Addproduct1.put()
 
-        Addproduct2=AvailableProductsCatalog(Product_Name='RamaAT',
-        Sku_Number='rama_2',
-        Price='20e-dollar',
-        Product_image_url='/images/butter/rama-at.jpeg',
-        Product_Attribute='30g butter')
-        Addproduct2.put()
 
-        Addproduct3=AvailableProductsCatalog(Product_Name='Rama-Classic',
-        Sku_Number='rama_3',
-        Price='40e-dollar',
-        Product_image_url='/images/butter/rama-classic.jpeg',
-        Product_Attribute='40g butter')
-        Addproduct3.put()
-    return None
+
+
+Addproduct1=AvailableProductsCatalog(Product_Name='RamaDE',
+Sku_Number='rama_1',
+Price='25e-dollar',
+Product_image_url='/images/butter/rama-de.jpeg',
+Product_Attribute='25g butter')
+Addproduct1.put()
+
+Addproduct2=AvailableProductsCatalog(Product_Name='RamaAT',
+Sku_Number='rama_2',
+Price='20e-dollar',
+Product_image_url='/images/butter/rama-at.jpeg',
+Product_Attribute='30g butter')
+Addproduct2.put()
+
+Addproduct3=AvailableProductsCatalog(Product_Name='Rama-Classic',
+Sku_Number='rama_3',
+Price='40e-dollar',
+Product_image_url='/images/butter/rama-classic.jpeg',
+Product_Attribute='40g butter')
+Addproduct3.put()
 
 
 
@@ -97,6 +98,7 @@ class LoginPage(Handler):
         self.render_output("LoginPage.html",error1=error1, error2=error2, errorlogin=errorlogin, userid=userid)
 
     def get(self):
+        self.response.out.write(self.request)
         mysession=str(random.randrange(999999))
         self.response.headers.add_header('Set-Cookie', 'session='+str(mysession) + '; Path=/')
         self.render_front()
@@ -112,13 +114,14 @@ class LoginPage(Handler):
             customerUserid=self.request.get('userid')
             customerPwd=self.request.get('pwd')
             customerRepeatPwd=self.request.get('repeatpwd')
+            print 'hi'
             if customerUserid and customerPwd and customerRepeatPwd !=None:
                 if customerPwd == customerRepeatPwd:
                     CheckNewUserExist=StoreCredentials.gql("WHERE UserID = :1", customerUserid).fetch(1)
-                    if CheckNewUserExist.count()==0:
+                    if CheckNewUserExist.count(1) ==0:
                         a=StoreCredentials(UserID=customerUserid, Password=customerPwd)
                         a.put()
-                        mysession=str(mysession)+'-'+customerUserid
+                        mysession=str(mysession)+'-'+str(customerUserid)
                         self.response.headers.add_header('Set-Cookie', 'session='+mysession+ '; Path=/')
                         self.redirect('/ourproducts')
 
@@ -156,34 +159,36 @@ class LoginPage(Handler):
             self.render_front( error1='', error2='',errorlogin=errorlogin, userid='')
 
 
-class MyProductPage(Handler):
+class ProducttoCartPage(Handler):
     def render_product(self,productdisplaypage=''):
         self.render_output("ProductDisplayPage.html",productdisplaypage=productdisplaypage)
 
     def get(self):
+
         mysession=self.request.cookies.get('session','0')
-        productdisplaypage=db.GqlQuery('select * from  AvailableProductsCatalog  limit 10')
+        productdisplaypage=db.GqlQuery('select * from  AvailableProductsCatalog')
         #print producttodisplay
         self.response.headers.add_header('Set-Cookie', 'session='+str(mysession)+'; Path=/')
+        logging.info(u'I am on PDP')
         self.render_product(productdisplaypage)
-    def post(self):
-        pass
 
-
-class MyCartPage(Handler):
-
-    def getCurrentUser(self,UserIDfromCookie):
+    def get_current_user(self,UserIDfromCookie):
         #print UserIDfromCookie
         CurrentUserExist=StoreCredentials.gql("WHERE UserID = :1", UserIDfromCookie).get()
         return CurrentUserExist
 
-
     def post(self):
-        GetSkuNumber=self.request.get('BuyNow')
+        #self.response.out.write(self.request)
+        GetSkuNumber=self.request.get('buynow')
+        logging.debug( u'This is a debug message' )
+        logging.info( u'This is an info message %s',GetSkuNumber )
+        logging.warning( u'This is a warning' )
+        logging.error( u'This is an error message' )
+        logging.critical( u'FATAL!!!' )
+        #self.response.out.write("the user is")
         mysession=self.request.cookies.get('session','0')
         UserIDfromCookie=str(mysession).split('-',1)[1]
-        p=self.getCurrentUser(UserIDfromCookie)
-        print p
+        p=self.get_current_user(UserIDfromCookie)
         if p !=None:
             k=CartedProduct(User_with_Cart=p,Carted_Sku=GetSkuNumber,Quantity_carted=1)
             k.put()
@@ -192,18 +197,25 @@ class MyCartPage(Handler):
             self.response.out.write("There is some problem with your cart")
 
 
-class Checkout(Handler):
-    pass
+class MyCartPage(Handler):
+
+    def get_current_user(self,UserIDfromCookie):
+        #print UserIDfromCookie
+        CurrentUserExist=StoreCredentials.gql("WHERE UserID = :1", UserIDfromCookie).get()
+        return CurrentUserExist
+    def get(self):
+        #self.response.out.write("You are here")
+        mysession=self.request.cookies.get('session','0')
+        UserIDfromCookie=str(mysession).split('-',1)[1]
+        p=self.get_current_user(UserIDfromCookie)
+        users_cart=CartedProduct.all()
+        #self.response.out.write(users_cart)
+        for each_item in users_cart:
+            if each_item.User_with_Cart.UserID==UserIDfromCookie:
+                self.response.out.write("True")
 
 
-def main():
-    """
-    @rtype : none
-    """
-    init_db_with_items()
-    app = webapp2.WSGIApplication([('/', LoginPage), ('/ourproducts', MyProductPage), ('/addcart', MyCartPage)], debug=True)
+app = webapp2.WSGIApplication([('/', LoginPage), ('/ourproducts', ProducttoCartPage), ('/itemscarted', MyCartPage)], debug=True)
 
 
-if __init__=='__main__':
-    main()
-    
+
