@@ -49,27 +49,30 @@ class AvailableProductsCatalog(db.Model):
     Product_image_url=db.StringProperty(required=False)
     Product_Attribute=db.StringProperty(required=True)
 
-Addproduct1=AvailableProductsCatalog(Product_Name='RamaDE',
-    Sku_Number='rama_1',
-    Price='25e-dollar',
-    Product_image_url='/images/butter/rama-de.jpeg',
-    Product_Attribute='25g butter')
 
-Addproduct1.put()
+def init_db_with_items():
+    if len(AvailableProductsCatalog)==0
+        Addproduct1=AvailableProductsCatalog(Product_Name='RamaDE',
+        Sku_Number='rama_1',
+        Price='25e-dollar',
+        Product_image_url='/images/butter/rama-de.jpeg',
+        Product_Attribute='25g butter')
+        Addproduct1.put()
 
-Addproduct2=AvailableProductsCatalog(Product_Name='RamaAT',
-    Sku_Number='rama_2',
-    Price='20e-dollar',
-    Product_image_url='/images/butter/rama-at.jpeg',
-    Product_Attribute='30g butter')
-Addproduct2.put()
+        Addproduct2=AvailableProductsCatalog(Product_Name='RamaAT',
+        Sku_Number='rama_2',
+        Price='20e-dollar',
+        Product_image_url='/images/butter/rama-at.jpeg',
+        Product_Attribute='30g butter')
+        Addproduct2.put()
 
-Addproduct3=AvailableProductsCatalog(Product_Name='Rama-Classic',
-    Sku_Number='rama_3',
-    Price='40e-dollar',
-    Product_image_url='/images/butter/rama-classic.jpeg',
-    Product_Attribute='40g butter')
-Addproduct3.put()
+        Addproduct3=AvailableProductsCatalog(Product_Name='Rama-Classic',
+        Sku_Number='rama_3',
+        Price='40e-dollar',
+        Product_image_url='/images/butter/rama-classic.jpeg',
+        Product_Attribute='40g butter')
+        Addproduct3.put()
+    return None
 
 
 
@@ -172,7 +175,6 @@ class MyCartPage(Handler):
     def getCurrentUser(self,UserIDfromCookie):
         #print UserIDfromCookie
         CurrentUserExist=StoreCredentials.gql("WHERE UserID = :1", UserIDfromCookie).get()
-        print CurrentUserExist
         return CurrentUserExist
 
 
@@ -193,4 +195,15 @@ class MyCartPage(Handler):
 class Checkout(Handler):
     pass
 
-app = webapp2.WSGIApplication([('/', LoginPage), ('/ourproducts', MyProductPage), ('/addcart', MyCartPage)], debug=True)
+
+def main():
+    """
+    @rtype : none
+    """
+    init_db_with_items()
+    app = webapp2.WSGIApplication([('/', LoginPage), ('/ourproducts', MyProductPage), ('/addcart', MyCartPage)], debug=True)
+
+
+if __init__=='__main__':
+    main()
+    
