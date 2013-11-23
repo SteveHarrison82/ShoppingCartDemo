@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b62ede3-2b4d-42b5-9c96-a532257f66d6" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ItemsCarted.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ProductDisplayPage.html" afterPath="$PROJECT_DIR$/templates/ProductDisplayPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_5.py" afterPath="$PROJECT_DIR$/main_5.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -15,7 +17,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/myfirstapp$myfirstapp.coverage" NAME="myfirstapp Coverage Results" MODIFIED="1385200274118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myfirstapp$myfirstapp.coverage" NAME="myfirstapp Coverage Results" MODIFIED="1385217487661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -43,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_5.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main_5.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="2557" selection-end="2557" vertical-scroll-proportion="-2.5534592" vertical-offset="2463" max-vertical-offset="3525">
+            <state line="92" column="56" selection-start="3475" selection-end="3475" vertical-scroll-proportion="-11.0625" vertical-offset="1026" max-vertical-offset="3480">
               <folding />
             </state>
           </provider>
@@ -55,124 +57,60 @@
       <file leaf-file-name="LoginPage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/LoginPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="269" selection-end="269" vertical-scroll-proportion="0.625" vertical-offset="255" max-vertical-offset="780">
+            <state line="27" column="51" selection-start="364" selection-end="364" vertical-scroll-proportion="-9.375" vertical-offset="180" max-vertical-offset="1335">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFirstWebApp.jpeg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/MyFirstWebApp.jpeg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myrecord.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/myrecord.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ramanew.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ramanew.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ProductDisplayPage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/ProductDisplayPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="435">
+            <state line="4" column="0" selection-start="72" selection-end="146" vertical-scroll-proportion="0.20833333" vertical-offset="65" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Login.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ItemsCarted.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/ItemsCarted.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/Login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Python/#/home/ramakrishnan/myfirstapp" pinned="false" current="false" current-in-tab="false">
-        <entry file="uml://Python/#/home/ramakrishnan/myfirstapp">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>Python</ID>
-              <OriginalElement>#/home/ramakrishnan/myfirstapp</OriginalElement>
-              <nodes>
-                <node x="1413.0" y="89.0">test.Handler</node>
-                <node x="671.0000000000001" y="168.0">main_3.myBlogAdded</node>
-                <node x="857.0000000000001" y="168.0">main_3.myBlogForm</node>
-                <node x="335.0000000000001" y="168.0">main.myHomePage</node>
-                <node x="1221.0" y="168.0">main_2.MyHomePage</node>
-                <node x="383.00000000000006" y="331.0">main_2.Art</node>
-                <node x="172.0000000000001" y="168.0">main.myBlogForm</node>
-                <node x="1238.5" y="89.0">main_2.Handler</node>
-                <node x="261.00000000000006" y="331.0">main.Blogs</node>
-                <node x="159.97973356009084" y="89.0">main.Handler</node>
-                <node x="299.97973356009084" y="89.0">main_1.MyHomePage</node>
-                <node x="0.0" y="484.0">main_1.MyThankyouPage</node>
-                <node x="39.5" y="405.0">MyMainPage</node>
-                <node x="870.0000000000001" y="89.0">main_3.Handler</node>
-                <node x="1407.0" y="168.0">test.MainPage</node>
-                <node x="508.0000000000001" y="168.0">main_4.MainPage</node>
-                <node x="696.0" y="331.0">main_3.Blogs</node>
-                <node x="1034.0" y="168.0">main_3.myHomePage</node>
-                <node x="0.0" y="168.0">main.myBlogAdded</node>
-                <node x="514.0000000000001" y="89.0">main_4.Handler</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="main_4.MainPage" target="main_4.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="main_1.MyThankyouPage" target="MyMainPage">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="main_2.MyHomePage" target="main_2.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="main_3.myBlogAdded" target="main_3.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="754.0000000000001" y="148.0" />
-                  <point x="891.8333333333335" y="148.0" />
-                  <point x="-43.66666666666663" y="14.5" />
-                </edge>
-                <edge source="main_3.myBlogForm" target="main_3.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="main.myHomePage" target="main.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="411.5000000000001" y="148.0" />
-                  <point x="257.47973356009084" y="148.0" />
-                  <point x="39.0" y="14.5" />
-                </edge>
-                <edge source="test.MainPage" target="test.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="main_3.myHomePage" target="main_3.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="1117.5" y="148.0" />
-                  <point x="979.1666666666667" y="148.0" />
-                  <point x="43.66666666666663" y="14.5" />
-                </edge>
-                <edge source="main.myBlogForm" target="main.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="243.5000000000001" y="148.0" />
-                  <point x="218.47973356009084" y="148.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="main.myBlogAdded" target="main.Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="76.0" y="148.0" />
-                  <point x="179.47973356009084" y="148.0" />
-                  <point x="-39.0" y="14.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.2449866903283053" x="1594.0" y="211.0" />
-              <SelectedNodes>
-                <node>main_3.Blogs</node>
-              </SelectedNodes>
-              <Categories />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_3.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main_3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="63" selection-start="3855" selection-end="4282" vertical-scroll-proportion="0.0" vertical-offset="1845" max-vertical-offset="1965">
               <folding />
             </state>
           </provider>
@@ -208,8 +146,10 @@
         <option value="$PROJECT_DIR$/app.yaml" />
         <option value="$PROJECT_DIR$/main_3.py" />
         <option value="$PROJECT_DIR$/main_1.py" />
-        <option value="$PROJECT_DIR$/templates/ProductDisplayPage.html" />
+        <option value="$PROJECT_DIR$/templates/ItemsCarted.html" />
         <option value="$PROJECT_DIR$/main_5.py" />
+        <option value="$PROJECT_DIR$/templates/ProductDisplayPage.html" />
+        <option value="$PROJECT_DIR$/templates/LoginPage.html" />
       </list>
     </option>
   </component>
@@ -255,28 +195,6 @@
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Google App Engine SDK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myfirstapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Google App Engine SDK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google_appengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -313,6 +231,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myfirstapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myfirstapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myimgs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="butter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -722,6 +658,11 @@
       <created>1370891909850</created>
       <updated>1370891909850</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some CSS style added">
+      <created>1385223036138</created>
+      <updated>1385223036138</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -746,19 +687,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1372" height="746" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10666667" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45333335" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12541807" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23592493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.028030302" sideWeight="0.8933333" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13484849" sideWeight="0.38" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13484849" sideWeight="0.5133333" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.025757575" sideWeight="0.6705686" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42045453" sideWeight="0.26923078" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42045453" sideWeight="0.4013378" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992359" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31966758" sideWeight="0.50620824" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45317724" sideWeight="0.32348484" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.28666666" sideWeight="0.67651516" order="2" side_tool="false" content_ui="tabs" x="579" y="2" width="787" height="712" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.27333334" sideWeight="0.67651516" order="2" side_tool="false" content_ui="tabs" x="579" y="2" width="787" height="712" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -775,72 +717,15 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Some CSS style added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some CSS style added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://Python/#/home/ramr/myfirstapp/main.py">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#/home/ramr/myfirstapp/main.py</OriginalElement>
-          <nodes>
-            <node x="336.5" y="1113.0">main.Handler</node>
-            <node x="350.5" y="1219.0">main.MainPage</node>
-            <node x="253.5" y="155.0">object</node>
-            <node x="296.5" y="0.0">_abcoll.Hashable</node>
-            <node x="0.0" y="646.0">webapp2.RequestHandler</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="webapp2.RequestHandler" target="object">
-              <point x="0.0" y="-208.5" />
-              <point x="0.0" y="220.5" />
-            </edge>
-            <edge source="object" target="_abcoll.Hashable">
-              <point x="0.0" y="-220.5" />
-              <point x="0.0" y="52.5" />
-            </edge>
-            <edge source="main.Handler" target="webapp2.RequestHandler">
-              <point x="0.0" y="-28.0" />
-              <point x="0.0" y="208.5" />
-            </edge>
-            <edge source="main.MainPage" target="main.Handler">
-              <point x="0.0" y="-28.0" />
-              <point x="0.0" y="28.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5258687258687259" x="-184.0" y="546.0" />
-          <SelectedNodes>
-            <node>webapp2.RequestHandler</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Methods</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/myrecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="294" selection-end="294" vertical-scroll-proportion="0.37226278" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="181" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="80" selection-start="3562" selection-end="3562" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -858,94 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://Python/#/home/ramakrishnan/myfirstapp">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#/home/ramakrishnan/myfirstapp</OriginalElement>
-          <nodes>
-            <node x="1413.0" y="89.0">test.Handler</node>
-            <node x="671.0000000000001" y="168.0">main_3.myBlogAdded</node>
-            <node x="857.0000000000001" y="168.0">main_3.myBlogForm</node>
-            <node x="335.0000000000001" y="168.0">main.myHomePage</node>
-            <node x="1221.0" y="168.0">main_2.MyHomePage</node>
-            <node x="383.00000000000006" y="331.0">main_2.Art</node>
-            <node x="172.0000000000001" y="168.0">main.myBlogForm</node>
-            <node x="1238.5" y="89.0">main_2.Handler</node>
-            <node x="261.00000000000006" y="331.0">main.Blogs</node>
-            <node x="159.97973356009084" y="89.0">main.Handler</node>
-            <node x="299.97973356009084" y="89.0">main_1.MyHomePage</node>
-            <node x="0.0" y="484.0">main_1.MyThankyouPage</node>
-            <node x="39.5" y="405.0">MyMainPage</node>
-            <node x="870.0000000000001" y="89.0">main_3.Handler</node>
-            <node x="1407.0" y="168.0">test.MainPage</node>
-            <node x="508.0000000000001" y="168.0">main_4.MainPage</node>
-            <node x="696.0" y="331.0">main_3.Blogs</node>
-            <node x="1034.0" y="168.0">main_3.myHomePage</node>
-            <node x="0.0" y="168.0">main.myBlogAdded</node>
-            <node x="514.0000000000001" y="89.0">main_4.Handler</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="main_4.MainPage" target="main_4.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="main_1.MyThankyouPage" target="MyMainPage">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="main_2.MyHomePage" target="main_2.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="main_3.myBlogAdded" target="main_3.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="754.0000000000001" y="148.0" />
-              <point x="891.8333333333335" y="148.0" />
-              <point x="-43.66666666666663" y="14.5" />
-            </edge>
-            <edge source="main_3.myBlogForm" target="main_3.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="main.myHomePage" target="main.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="411.5000000000001" y="148.0" />
-              <point x="257.47973356009084" y="148.0" />
-              <point x="39.0" y="14.5" />
-            </edge>
-            <edge source="test.MainPage" target="test.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="main_3.myHomePage" target="main_3.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="1117.5" y="148.0" />
-              <point x="979.1666666666667" y="148.0" />
-              <point x="43.66666666666663" y="14.5" />
-            </edge>
-            <edge source="main.myBlogForm" target="main.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="243.5000000000001" y="148.0" />
-              <point x="218.47973356009084" y="148.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="main.myBlogAdded" target="main.Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="76.0" y="148.0" />
-              <point x="179.47973356009084" y="148.0" />
-              <point x="-39.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.2449866903283053" x="1594.0" y="211.0" />
-          <SelectedNodes>
-            <node>main_3.Blogs</node>
-          </SelectedNodes>
-          <Categories />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="9" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
@@ -956,20 +753,6 @@
     <entry file="file://$PROJECT_DIR$/ramanew.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ProductDisplayPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="435">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/google_appengine/google/appengine/runtime/wsgi.py">
@@ -986,16 +769,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/LoginPage.html">
+    <entry file="file://$PROJECT_DIR$/templates/myrecord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="269" selection-end="269" vertical-scroll-proportion="0.625" vertical-offset="255" max-vertical-offset="780">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/MyFirstWebApp.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main_5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2557" selection-end="2557" vertical-scroll-proportion="-2.5534592" vertical-offset="2463" max-vertical-offset="3525">
+        <state line="92" column="56" selection-start="3475" selection-end="3475" vertical-scroll-proportion="-11.0625" vertical-offset="1026" max-vertical-offset="3480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/LoginPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="51" selection-start="364" selection-end="364" vertical-scroll-proportion="-9.375" vertical-offset="180" max-vertical-offset="1335">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ProductDisplayPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="72" selection-end="146" vertical-scroll-proportion="0.20833333" vertical-offset="65" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ramanew.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ItemsCarted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/home/ramakrishnan/myfirstapp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/home/ramakrishnan/myfirstapp</OriginalElement>
+          <nodes>
+            <node x="" y="">test.Handler</node>
+            <node x="" y="">main_3.myBlogAdded</node>
+            <node x="" y="">main_3.myBlogForm</node>
+            <node x="" y="">main.myHomePage</node>
+            <node x="" y="">main_2.MyHomePage</node>
+            <node x="" y="">main_2.Art</node>
+            <node x="" y="">main.myBlogForm</node>
+            <node x="" y="">main_2.Handler</node>
+            <node x="" y="">main.Blogs</node>
+            <node x="" y="">main.Handler</node>
+            <node x="" y="">main_1.MyHomePage</node>
+            <node x="" y="">main_1.MyThankyouPage</node>
+            <node x="" y="">MyMainPage</node>
+            <node x="" y="">main_3.Handler</node>
+            <node x="" y="">test.MainPage</node>
+            <node x="" y="">main_4.MainPage</node>
+            <node x="" y="">main_3.Blogs</node>
+            <node x="" y="">main_3.myHomePage</node>
+            <node x="" y="">main.myBlogAdded</node>
+            <node x="" y="">main_4.Handler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2449866903283053" x="1694.804290499608" y="139.91490271541585" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
           <folding />
         </state>
       </provider>
