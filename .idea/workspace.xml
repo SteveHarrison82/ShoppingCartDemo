@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b62ede3-2b4d-42b5-9c96-a532257f66d6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/ProductDisplayPage.html" afterPath="$PROJECT_DIR$/templates/ProductDisplayPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_5.py" afterPath="$PROJECT_DIR$/main_5.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myfirstapp.iws" />
@@ -19,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/myfirstapp$myfirstapp.coverage" NAME="myfirstapp Coverage Results" MODIFIED="1385073256901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myfirstapp$myfirstapp.coverage" NAME="myfirstapp Coverage Results" MODIFIED="1385200274118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -50,10 +46,8 @@
       <file leaf-file-name="main_5.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="211" column="9" selection-start="8217" selection-end="8217" vertical-scroll-proportion="1.4515051" vertical-offset="2731" max-vertical-offset="3405">
-              <folding>
-                <element signature="e#20#33#0" expanded="true" />
-              </folding>
+            <state line="83" column="0" selection-start="2557" selection-end="2557" vertical-scroll-proportion="-2.5534592" vertical-offset="2463" max-vertical-offset="3525">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,7 +55,7 @@
       <file leaf-file-name="LoginPage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/LoginPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="269" selection-end="269" vertical-scroll-proportion="3.125" vertical-offset="315" max-vertical-offset="780">
+            <state line="16" column="8" selection-start="269" selection-end="269" vertical-scroll-proportion="0.625" vertical-offset="255" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -70,7 +64,7 @@
       <file leaf-file-name="ProductDisplayPage.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/ProductDisplayPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.25" vertical-offset="105" max-vertical-offset="435">
+            <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -79,7 +73,7 @@
       <file leaf-file-name="Login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/Login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -99,25 +93,17 @@
                 <node x="1221.0" y="168.0">main_2.MyHomePage</node>
                 <node x="383.00000000000006" y="331.0">main_2.Art</node>
                 <node x="172.0000000000001" y="168.0">main.myBlogForm</node>
-                <node x="0.0" y="331.0">AvailableProductsCatalog</node>
-                <node x="1551.0" y="168.0">MyProductPage</node>
                 <node x="1238.5" y="89.0">main_2.Handler</node>
-                <node x="503.00000000000006" y="331.0">CartedProduct</node>
                 <node x="261.00000000000006" y="331.0">main.Blogs</node>
                 <node x="159.97973356009084" y="89.0">main.Handler</node>
                 <node x="299.97973356009084" y="89.0">main_1.MyHomePage</node>
                 <node x="0.0" y="484.0">main_1.MyThankyouPage</node>
-                <node x="1750.0" y="168.0">LoginPage</node>
-                <node x="1917.0" y="168.0">MyCartPage</node>
                 <node x="39.5" y="405.0">MyMainPage</node>
                 <node x="870.0000000000001" y="89.0">main_3.Handler</node>
                 <node x="1407.0" y="168.0">test.MainPage</node>
                 <node x="508.0000000000001" y="168.0">main_4.MainPage</node>
-                <node x="2093.0" y="168.0">Checkout</node>
                 <node x="696.0" y="331.0">main_3.Blogs</node>
-                <node x="832.0" y="331.0">StoreCredentials</node>
                 <node x="1034.0" y="168.0">main_3.myHomePage</node>
-                <node x="1843.75" y="89.0">Handler</node>
                 <node x="0.0" y="168.0">main.myBlogAdded</node>
                 <node x="514.0000000000001" y="89.0">main_4.Handler</node>
               </nodes>
@@ -140,24 +126,6 @@
                   <point x="754.0000000000001" y="148.0" />
                   <point x="891.8333333333335" y="148.0" />
                   <point x="-43.66666666666663" y="14.5" />
-                </edge>
-                <edge source="Checkout" target="Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="2163.5" y="138.0" />
-                  <point x="1958.375" y="138.0" />
-                  <point x="49.125" y="14.5" />
-                </edge>
-                <edge source="LoginPage" target="Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="1823.5" y="148.0" />
-                  <point x="1892.875" y="148.0" />
-                  <point x="-16.375" y="14.5" />
-                </edge>
-                <edge source="MyProductPage" target="Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="1640.5" y="138.0" />
-                  <point x="1860.125" y="138.0" />
-                  <point x="-49.125" y="14.5" />
                 </edge>
                 <edge source="main_3.myBlogForm" target="main_3.Handler">
                   <point x="0.0" y="-14.5" />
@@ -185,12 +153,6 @@
                   <point x="218.47973356009084" y="148.0" />
                   <point x="0.0" y="14.5" />
                 </edge>
-                <edge source="MyCartPage" target="Handler">
-                  <point x="0.0" y="-14.5" />
-                  <point x="1995.0" y="148.0" />
-                  <point x="1925.625" y="148.0" />
-                  <point x="16.375" y="14.5" />
-                </edge>
                 <edge source="main.myBlogAdded" target="main.Handler">
                   <point x="0.0" y="-14.5" />
                   <point x="76.0" y="148.0" />
@@ -200,7 +162,7 @@
               </edges>
               <settings layout="Hierarchic Group" zoom="1.2449866903283053" x="1594.0" y="211.0" />
               <SelectedNodes>
-                <node>Checkout</node>
+                <node>main_3.Blogs</node>
               </SelectedNodes>
               <Categories />
             </state>
@@ -252,9 +214,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="width" value="1350" />
-    <option name="height" value="519" />
+    <option name="x" value="-3" />
+    <option name="width" value="1372" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -282,7 +244,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -357,19 +318,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.53588516" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.53588516" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -516,6 +478,22 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myfirstapp" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -536,22 +514,6 @@
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myfirstapp" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="browserUrl" value="" />
-      <option name="additionalOptions" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -590,7 +552,40 @@
       <option name="CONFIGURATION_FILE" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="myfirstapp" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
+      <module name="" />
+      <option name="PORT" value="0" />
+      <option name="HOST" value="null" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list />
+        </option>
+      </PathMappingSettings>
+      <option name="REDIRECT_OUTPUT" value="true" />
+      <option name="SUSPEND_AFTER_CONNECT" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -616,40 +611,7 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="PyRemoteDebugConfigurationType" factoryName="Python Remote Debug">
-      <module name="" />
-      <option name="PORT" value="0" />
-      <option name="HOST" value="null" />
-      <PathMappingSettings>
-        <option name="pathMappings">
-          <list />
-        </option>
-      </PathMappingSettings>
-      <option name="REDIRECT_OUTPUT" value="true" />
-      <option name="SUSPEND_AFTER_CONNECT" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="myfirstapp" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -783,20 +745,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="0" width="1350" height="519" extended-state="1" />
+    <frame x="-3" y="0" width="1372" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.028505392" sideWeight="0.951505" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2164869" sideWeight="0.21293801" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2164869" sideWeight="0.78436655" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10666667" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23592493" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.028030302" sideWeight="0.8933333" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13484849" sideWeight="0.38" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13484849" sideWeight="0.5133333" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3992359" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31966758" sideWeight="0.50620824" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45317724" sideWeight="0.32348484" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.28595316" sideWeight="0.67651516" order="2" side_tool="false" content_ui="tabs" x="7" y="519" width="1320" height="225" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.28666666" sideWeight="0.67651516" order="2" side_tool="false" content_ui="tabs" x="579" y="2" width="787" height="712" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -909,25 +871,17 @@
             <node x="1221.0" y="168.0">main_2.MyHomePage</node>
             <node x="383.00000000000006" y="331.0">main_2.Art</node>
             <node x="172.0000000000001" y="168.0">main.myBlogForm</node>
-            <node x="0.0" y="331.0">AvailableProductsCatalog</node>
-            <node x="1551.0" y="168.0">MyProductPage</node>
             <node x="1238.5" y="89.0">main_2.Handler</node>
-            <node x="503.00000000000006" y="331.0">CartedProduct</node>
             <node x="261.00000000000006" y="331.0">main.Blogs</node>
             <node x="159.97973356009084" y="89.0">main.Handler</node>
             <node x="299.97973356009084" y="89.0">main_1.MyHomePage</node>
             <node x="0.0" y="484.0">main_1.MyThankyouPage</node>
-            <node x="1750.0" y="168.0">LoginPage</node>
-            <node x="1917.0" y="168.0">MyCartPage</node>
             <node x="39.5" y="405.0">MyMainPage</node>
             <node x="870.0000000000001" y="89.0">main_3.Handler</node>
             <node x="1407.0" y="168.0">test.MainPage</node>
             <node x="508.0000000000001" y="168.0">main_4.MainPage</node>
-            <node x="2093.0" y="168.0">Checkout</node>
             <node x="696.0" y="331.0">main_3.Blogs</node>
-            <node x="832.0" y="331.0">StoreCredentials</node>
             <node x="1034.0" y="168.0">main_3.myHomePage</node>
-            <node x="1843.75" y="89.0">Handler</node>
             <node x="0.0" y="168.0">main.myBlogAdded</node>
             <node x="514.0000000000001" y="89.0">main_4.Handler</node>
           </nodes>
@@ -950,24 +904,6 @@
               <point x="754.0000000000001" y="148.0" />
               <point x="891.8333333333335" y="148.0" />
               <point x="-43.66666666666663" y="14.5" />
-            </edge>
-            <edge source="Checkout" target="Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="2163.5" y="138.0" />
-              <point x="1958.375" y="138.0" />
-              <point x="49.125" y="14.5" />
-            </edge>
-            <edge source="LoginPage" target="Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="1823.5" y="148.0" />
-              <point x="1892.875" y="148.0" />
-              <point x="-16.375" y="14.5" />
-            </edge>
-            <edge source="MyProductPage" target="Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="1640.5" y="138.0" />
-              <point x="1860.125" y="138.0" />
-              <point x="-49.125" y="14.5" />
             </edge>
             <edge source="main_3.myBlogForm" target="main_3.Handler">
               <point x="0.0" y="-14.5" />
@@ -995,12 +931,6 @@
               <point x="218.47973356009084" y="148.0" />
               <point x="0.0" y="14.5" />
             </edge>
-            <edge source="MyCartPage" target="Handler">
-              <point x="0.0" y="-14.5" />
-              <point x="1995.0" y="148.0" />
-              <point x="1925.625" y="148.0" />
-              <point x="16.375" y="14.5" />
-            </edge>
             <edge source="main.myBlogAdded" target="main.Handler">
               <point x="0.0" y="-14.5" />
               <point x="76.0" y="148.0" />
@@ -1010,7 +940,7 @@
           </edges>
           <settings layout="Hierarchic Group" zoom="1.2449866903283053" x="1594.0" y="211.0" />
           <SelectedNodes>
-            <node>Checkout</node>
+            <node>main_3.Blogs</node>
           </SelectedNodes>
           <Categories />
         </state>
@@ -1019,20 +949,6 @@
     <entry file="file://$PROJECT_DIR$/main_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="9" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1575">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/google_appengine/google/appengine/runtime/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="0" selection-start="7698" selection-end="7698" vertical-scroll-proportion="0.33125" vertical-offset="3389" max-vertical-offset="4995">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
@@ -1049,26 +965,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/LoginPage.html">
+    <entry file="file://$PROJECT_DIR$/templates/ProductDisplayPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="269" selection-end="269" vertical-scroll-proportion="3.125" vertical-offset="315" max-vertical-offset="780">
+        <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/ProductDisplayPage.html">
+    <entry file="file://$USER_HOME$/google_appengine/google/appengine/runtime/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="152" selection-end="152" vertical-scroll-proportion="-1.25" vertical-offset="105" max-vertical-offset="435">
+        <state line="300" column="0" selection-start="9321" selection-end="9321" vertical-scroll-proportion="0.33333334" vertical-offset="4242" max-vertical-offset="4995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/LoginPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="269" selection-end="269" vertical-scroll-proportion="0.625" vertical-offset="255" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main_5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="9" selection-start="8217" selection-end="8217" vertical-scroll-proportion="1.4515051" vertical-offset="2731" max-vertical-offset="3405">
-          <folding>
-            <element signature="e#20#33#0" expanded="true" />
-          </folding>
+        <state line="83" column="0" selection-start="2557" selection-end="2557" vertical-scroll-proportion="-2.5534592" vertical-offset="2463" max-vertical-offset="3525">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,25 +1,30 @@
 __author__ = 'ramr'
-import random
-import os
 import sys
 sys.path.append("/usr/lib/python2.7/dist-packages")
 sys.path.append("/home/ramakrishnan/google_appengine/lib/webapp2-2.5.2")
+import cgi;
+import wsgiref.handlers
+import random
+import os
 import jinja2
 import webapp2
 from google.appengine.ext import db
 import logging
-'''template_dir variable is current dirname joined with folder name templates'''
+
+
+
+
 template_dir = os.path.join(os.path.dirname(__file__),'templates')
+'''template_dir variable is current dirname joined with folder name templates'''
+
+myTemplateFolder=jinja2.FileSystemLoader(template_dir)
 '''
 The loader takes the path to the templates as string, or if multiple locations are wanted
 a list of them which is then looked up in the given order:
-
 >>> loader = FileSystemLoader('/path/to/templates')
 >>> loader = FileSystemLoader(['/path/to/templates', '/other/path'])
-
-
 '''
-myTemplateFolder=jinja2.FileSystemLoader(template_dir)
+
 jinja_env = jinja2.Environment(loader = myTemplateFolder , autoescape=True)
 
 '''
@@ -31,51 +36,51 @@ self.response.out.write(myform %{"error":error}) accepts input as string
 
 
 
-class StoreCredentials(db.Model):
+class StoreCredentialsModel(db.Model):
     UserID=db.StringProperty(required=True)
     Password=db.StringProperty(required=True)
 
 
-class CartedProduct(db.Model):
-    User_with_Cart=db.ReferenceProperty(StoreCredentials)
+class CartedProductModel(db.Model):
+    User_with_Cart=db.ReferenceProperty(StoreCredentialsModel)
     Carted_Sku=db.StringProperty(required=True)
     Quantity_carted=db.IntegerProperty(required=True)
 
 
-class AvailableProductsCatalog(db.Model):
+class AvailableProductsCatalogModel(db.Model):
     Product_Name=db.StringProperty(required=True)
     Sku_Number=db.StringProperty(required=True)
     Price=db.StringProperty(required=True)
     Product_image_url=db.StringProperty(required=False)
     Product_Attribute=db.StringProperty(required=True)
 
+def init_db_with_product():
+    """
 
+    @rtype : return None
+    """
+    if (db.Query(AvailableProductsCatalogModel).count())==0:
+        Addproduct1=AvailableProductsCatalogModel(Product_Name='RamaDE',
+        Sku_Number='rama_1',
+        Price='25e-dollar',
+        Product_image_url='/images/butter/rama-de.jpeg',
+        Product_Attribute='25g butter')
+        Addproduct1.put()
 
+        Addproduct2=AvailableProductsCatalogModel(Product_Name='RamaAT',
+        Sku_Number='rama_2',
+        Price='20e-dollar',
+        Product_image_url='/images/butter/rama-at.jpeg',
+        Product_Attribute='30g butter')
+        Addproduct2.put()
 
-
-
-Addproduct1=AvailableProductsCatalog(Product_Name='RamaDE',
-Sku_Number='rama_1',
-Price='25e-dollar',
-Product_image_url='/images/butter/rama-de.jpeg',
-Product_Attribute='25g butter')
-Addproduct1.put()
-
-Addproduct2=AvailableProductsCatalog(Product_Name='RamaAT',
-Sku_Number='rama_2',
-Price='20e-dollar',
-Product_image_url='/images/butter/rama-at.jpeg',
-Product_Attribute='30g butter')
-Addproduct2.put()
-
-Addproduct3=AvailableProductsCatalog(Product_Name='Rama-Classic',
-Sku_Number='rama_3',
-Price='40e-dollar',
-Product_image_url='/images/butter/rama-classic.jpeg',
-Product_Attribute='40g butter')
-Addproduct3.put()
-
-
+        Addproduct3=AvailableProductsCatalogModel(Product_Name='Rama-Classic',
+        Sku_Number='rama_3',
+        Price='40e-dollar',
+        Product_image_url='/images/butter/rama-classic.jpeg',
+        Product_Attribute='40g butter')
+        Addproduct3.put()
+    return None 
 
 class Handler(webapp2.RequestHandler):
 
@@ -117,9 +122,9 @@ class LoginPage(Handler):
             print 'hi'
             if customerUserid and customerPwd and customerRepeatPwd !=None:
                 if customerPwd == customerRepeatPwd:
-                    CheckNewUserExist=StoreCredentials.gql("WHERE UserID = :1", customerUserid).fetch(1)
+                    CheckNewUserExist=StoreCredentialsModel.gql("WHERE UserID = :1", customerUserid).fetch(1)
                     if CheckNewUserExist.count(1) ==0:
-                        a=StoreCredentials(UserID=customerUserid, Password=customerPwd)
+                        a=StoreCredentialsModel(UserID=customerUserid, Password=customerPwd)
                         a.put()
                         mysession=str(mysession)+'-'+str(customerUserid)
                         self.response.headers.add_header('Set-Cookie', 'session='+mysession+ '; Path=/')
@@ -142,12 +147,12 @@ class LoginPage(Handler):
         if customerLoginid=='Submit':
             theuser=self.request.get('userid-login')
             thepass=self.request.get('pwd-login')
-            verifylogincredential=db.GqlQuery('select *  from  StoreCredentials')
+            verifylogincredential=db.GqlQuery('select *  from  StoreCredentialsModel')
 
             for result in verifylogincredential:
                 print result.UserID,result.Password
 
-            verifylogincredential2=StoreCredentials.gql("WHERE UserID = :1 and Password=:2", theuser, thepass)
+            verifylogincredential2=StoreCredentialsModel.gql("WHERE UserID = :1 and Password=:2", theuser, thepass)
             for result2 in verifylogincredential2:
                 if result2.Password==thepass:
                     mysession=str(mysession)+'-'+theuser
@@ -166,7 +171,7 @@ class ProducttoCartPage(Handler):
     def get(self):
 
         mysession=self.request.cookies.get('session','0')
-        productdisplaypage=db.GqlQuery('select * from  AvailableProductsCatalog')
+        productdisplaypage=db.GqlQuery('select * from  AvailableProductsCatalogModel')
         #print producttodisplay
         self.response.headers.add_header('Set-Cookie', 'session='+str(mysession)+'; Path=/')
         logging.info(u'I am on PDP')
@@ -174,7 +179,7 @@ class ProducttoCartPage(Handler):
 
     def get_current_user(self,UserIDfromCookie):
         #print UserIDfromCookie
-        CurrentUserExist=StoreCredentials.gql("WHERE UserID = :1", UserIDfromCookie).get()
+        CurrentUserExist=StoreCredentialsModel.gql("WHERE UserID = :1", UserIDfromCookie).get()
         return CurrentUserExist
 
     def post(self):
@@ -190,7 +195,7 @@ class ProducttoCartPage(Handler):
         UserIDfromCookie=str(mysession).split('-',1)[1]
         p=self.get_current_user(UserIDfromCookie)
         if p !=None:
-            k=CartedProduct(User_with_Cart=p,Carted_Sku=GetSkuNumber,Quantity_carted=1)
+            k=CartedProductModel(User_with_Cart=p,Carted_Sku=GetSkuNumber,Quantity_carted=1)
             k.put()
             self.redirect('/itemscarted')
         else:
@@ -201,21 +206,24 @@ class MyCartPage(Handler):
 
     def get_current_user(self,UserIDfromCookie):
         #print UserIDfromCookie
-        CurrentUserExist=StoreCredentials.gql("WHERE UserID = :1", UserIDfromCookie).get()
+        CurrentUserExist=StoreCredentialsModel.gql("WHERE UserID = :1", UserIDfromCookie).get()
         return CurrentUserExist
     def get(self):
         #self.response.out.write("You are here")
         mysession=self.request.cookies.get('session','0')
         UserIDfromCookie=str(mysession).split('-',1)[1]
         p=self.get_current_user(UserIDfromCookie)
-        users_cart=CartedProduct.all()
+        users_cart=CartedProductModel.all()
         #self.response.out.write(users_cart)
         for each_item in users_cart:
             if each_item.User_with_Cart.UserID==UserIDfromCookie:
                 self.response.out.write("True")
 
 
-app = webapp2.WSGIApplication([('/', LoginPage), ('/ourproducts', ProducttoCartPage), ('/itemscarted', MyCartPage)], debug=True)
 
+
+
+init_db_with_product()
+app=webapp2.WSGIApplication([('/', LoginPage), ('/ourproducts', ProducttoCartPage), ('/itemscarted', MyCartPage)], debug=True)
 
 
