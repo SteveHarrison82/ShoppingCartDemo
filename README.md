@@ -1,4 +1,4 @@
-myfirstapp
+ShoppingCartDemo
 ==========
 
-myfirstapp
+ShoppingCartDemo
